@@ -30,9 +30,9 @@ const addtable = () => {
 
     newCell = newRow.insertCell();
     newCell.appendChild(deletebtn);
-
-    const commentvalue = document.getElementById("comment");
-    commentvalue.value = "";
   }
   );
+
+  const commentvalue = document.getElementById("comment");
+  commentvalue.value = "";
 }
